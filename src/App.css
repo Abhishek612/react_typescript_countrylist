@@ -1,0 +1,65 @@
+.detail-list {
+    font-size: 22px;
+    font-style: italic;
+    background-color: beige;
+}
+.nav {
+    margin-top: 35px 
+}
+.nav-form {
+    float: none;
+    margin-left: 33%;
+}
+.country-list {
+    max-height: 500px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#style-1::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+} 
+#style-1::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+#style-1::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+
+.wrapper {
+    box-shadow: 5px 5px 10px #e5ecf4;
+    margin-top: 25px;
+}
+.countries-box {
+    padding: 20px;
+}
+.countries-box h2 {
+    font-size: 25px;
+    color: #057ea8;
+    margin-bottom: 10px;
+}
+nav.navbar.navbar-light.bg-light.nav {
+    background: #057fa8 !important;
+    padding: 15px 15px;
+    border-radius: 5px;
+}
+input.form-control.mr-sm-2 {
+    height: 45px;
+    font-size: 15px;
+    color: #057fa8 !important;
+    padding: 10px 15px;
+    border: 1px solid #ffffff !important;
+}
+button.btn.btn-secondary.btn-sm.dropdown-toggle {
+    height: 45px;
+    background: #e5ecf4;
+    color: #057fa8 !important;
+    padding: 10px 15px;
+    border: 1px solid #e5ecf4 !important;
+}
+ 
+a.list-group-item.list-group-item-action {
+    font-size: 17px;
+}
